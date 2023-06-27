@@ -13,4 +13,3 @@ export const createTree = async (): Promise<MerkleTree> => {
   console.log(tree.toString())
   return tree
 };
-createTree()
